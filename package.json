@@ -1,5 +1,6 @@
 {
   "name": "using_chartjs",
+  "homepage": "http://m.abuzahrah.com/chartjs",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
