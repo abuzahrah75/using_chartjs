@@ -4,7 +4,7 @@ import './App.css';
 //my charts
 import Myline from './components/newcharts/myline'
 import Mybar from './components/newcharts/mybar'
-
+import Mypie from './components/newcharts/mypie'
 
 // importing the graphs components
 // import DoughnutExample from './doughnut';
@@ -29,6 +29,7 @@ function App() {
        <Myline />
       {/* <LineExample /> */}
       <Mybar />
+      <Mypie />
     </div>
   );
 }
