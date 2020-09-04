@@ -11,7 +11,7 @@ import Mybar from './components/newcharts/mybar'
 // import DynamicDoughnutExample from './dynamic-doughnut';
 // import PieExample from './pie';
 // import LineExample from './components/line';
-import BarExample from './components/bar';
+// import BarExample from './components/bar';
 // import HorizontalBarExample from './horizontalBar';
 // import RadarExample from './radar';
 // import PolarExample from './polar';
