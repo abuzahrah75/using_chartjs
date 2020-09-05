@@ -9,13 +9,13 @@ import HorizontalBar from './components/newcharts/horizontalbar'
 import Myradar from './components/newcharts/myradar'
 import MyPolar from './components/newcharts/polar'
 import Mybubble from './components/newcharts/bubble'
+import Mydoughnut from './components/newcharts/mydoughnut'
+import MyDynamiDoughnut from './components/newcharts/myDynamicDoughnut'
+import MyDynamicDoughnut from './components/newcharts/myDynamicDoughnut';
 
 // importing the graphs components
-// import DoughnutExample from './doughnut';
+
 // import DynamicDoughnutExample from './dynamic-doughnut';
-
-
-// import BubbleExample from './bubble';
 // import ScatterExample from './scatter';
 // import MixedDataExample from './mix';
 // import RandomizedDataLineExample from './randomizedLine';
@@ -33,6 +33,8 @@ function App() {
       <Myradar />
       <MyPolar />
       <Mybubble />
+      <Mydoughnut />
+      <MyDynamicDoughnut />
     </div>
   );
 }
