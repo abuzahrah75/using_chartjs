@@ -5,14 +5,11 @@ import './App.css';
 import Myline from './components/newcharts/myline'
 import Mybar from './components/newcharts/mybar'
 import Mypie from './components/newcharts/mypie'
-
+import HorizontalBar from './components/newcharts/horizontalbar'
+import Myradar from './components/newcharts/myradar'
 // importing the graphs components
 // import DoughnutExample from './doughnut';
 // import DynamicDoughnutExample from './dynamic-doughnut';
-// import PieExample from './pie';
-// import LineExample from './components/line';
-// import BarExample from './components/bar';
-// import HorizontalBarExample from './horizontalBar';
 // import RadarExample from './radar';
 // import PolarExample from './polar';
 // import BubbleExample from './bubble';
@@ -30,6 +27,8 @@ function App() {
       {/* <LineExample /> */}
       <Mybar />
       <Mypie />
+      <HorizontalBar />
+      <Myradar />
     </div>
   );
 }
