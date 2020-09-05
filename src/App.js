@@ -10,13 +10,20 @@ import Myradar from './components/newcharts/myradar'
 import MyPolar from './components/newcharts/polar'
 import Mybubble from './components/newcharts/bubble'
 import Mydoughnut from './components/newcharts/mydoughnut'
-import MyDynamiDoughnut from './components/newcharts/myDynamicDoughnut'
 import MyDynamicDoughnut from './components/newcharts/myDynamicDoughnut';
+import MyScatter from './components/newcharts/myScatter'
+// import MyMixData from './components/newcharts/myMixedData'
+import RandomizedDataLineExample from './components/newcharts/randonDataLine'
+
+//failed charts needed review :
+// bubble chart
+// Scatter chart
+// mix data chart
+
+
 
 // importing the graphs components
 
-// import DynamicDoughnutExample from './dynamic-doughnut';
-// import ScatterExample from './scatter';
 // import MixedDataExample from './mix';
 // import RandomizedDataLineExample from './randomizedLine';
 // import CrazyDataLineExample from './crazyLine';
@@ -35,6 +42,9 @@ function App() {
       <Mybubble />
       <Mydoughnut />
       <MyDynamicDoughnut />
+      <MyScatter />
+      {/* <MyMixData /> */}
+      <RandomizedDataLineExample />
     </div>
   );
 }
