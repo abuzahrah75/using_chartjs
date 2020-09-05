@@ -14,6 +14,7 @@ import MyDynamicDoughnut from './components/newcharts/myDynamicDoughnut';
 import MyScatter from './components/newcharts/myScatter'
 // import MyMixData from './components/newcharts/myMixedData'
 import RandomizedDataLineExample from './components/newcharts/randonDataLine'
+import CrazyRandomGraph from './components/newcharts/myCrazyDataLine' 
 
 //failed charts needed review :
 // bubble chart
@@ -25,7 +26,7 @@ import RandomizedDataLineExample from './components/newcharts/randonDataLine'
 // importing the graphs components
 
 // import MixedDataExample from './mix';
-// import RandomizedDataLineExample from './randomizedLine';
+
 // import CrazyDataLineExample from './crazyLine';
 // import LegendOptionsExample from './legend-options';
 // import LegendHandlersExample from './legend-handlers';
@@ -45,6 +46,7 @@ function App() {
       <MyScatter />
       {/* <MyMixData /> */}
       <RandomizedDataLineExample />
+      <CrazyRandomGraph />
     </div>
   );
 }
