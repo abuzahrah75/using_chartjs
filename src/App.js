@@ -15,19 +15,21 @@ import MyScatter from './components/newcharts/myScatter'
 // import MyMixData from './components/newcharts/myMixedData'
 import RandomizedDataLineExample from './components/newcharts/randonDataLine'
 import CrazyRandomGraph from './components/newcharts/myCrazyDataLine' 
+import LegendOptionsExample from './components/newcharts/myLegendOptions'
+import LegendHandlersExample from './components/newcharts/myLegendHandler'
+
 
 //failed charts needed review :
-// bubble chart
-// Scatter chart
-// mix data chart
+// bubble chart - may be because of the axis range. 
+// Scatter chart - i think this chart is ok. just that the dot/point is to small when viewed in laptop.
+// mix data chart - error when loading
 
 
 
 // importing the graphs components
-
 // import MixedDataExample from './mix';
 
-// import CrazyDataLineExample from './crazyLine';
+
 // import LegendOptionsExample from './legend-options';
 // import LegendHandlersExample from './legend-handlers';
 
@@ -47,6 +49,8 @@ function App() {
       {/* <MyMixData /> */}
       <RandomizedDataLineExample />
       <CrazyRandomGraph />
+      <LegendOptionsExample />
+      <LegendHandlersExample />
     </div>
   );
 }
