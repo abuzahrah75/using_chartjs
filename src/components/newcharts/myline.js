@@ -32,7 +32,7 @@ const data = {
 function myline() {
     return (
         <div>
-            <h2>Line Example</h2>
+            <h2>Line Chart Example</h2>
         <Line data={data} />
         </div>
     )
